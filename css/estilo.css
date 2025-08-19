@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+* {
+  padding: 0;/*Reseteo la configuracion de los navegadores*/
+  margin: 0;/*Reseteo la configuracion de los navegadores*/
+  
+  
+  font-family:"Roboto","PT Serif";
+  box-sizing:border-box ;/* contiene el ancho(width) y alto (height) de la caja adhiriendo el margin y el padding.*/
+  
+  
+  }
+/* Estilos básicos para la página */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+header .logo img {
+    width: 100px;
+}
+
+header .main-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header .main-nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header .main-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header .mobile-nav .hamburger {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 30px;
+    color: #fff;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.gallery {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 30%;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Formularios */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .main-nav ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .gallery img {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-nav ul {
+        display: none;
+    }
+
+    .mobile-nav .hamburger {
+        display: block;
+    }
+
+    #hamburger-menu {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .mobile-nav .hamburger.active + #hamburger-menu {
+        display: flex;
+    }
+
+    .gallery img {
+        width: 100%;
+    }
+}
+
+/* Activar menú hamburguesa */
+.hidden {
+    display: none;
+}
+
+.hamburger.active {
+    background-color: #444;
+}
