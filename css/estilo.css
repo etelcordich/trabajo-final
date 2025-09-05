@@ -6,31 +6,29 @@
 
 
 * {
-  padding: 0;/*Reseteo la configuracion de los navegadores*/
-  margin: 0;/*Reseteo la configuracion de los navegadores*/
+  padding: 0;
+  margin: 0;
   
-  
-  font-family:"Roboto","PT Serif";
-  box-sizing:border-box ;/* contiene el ancho(width) y alto (height) de la caja adhiriendo el margin y el padding.*/
-  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing:border-box ;
   
   }
-/* Estilos básicos para la página */
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    color: #333;
+    color: #6d6a6a;
 }
 
-/* Header */
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #333;
+    background-color: #6d6a6a;
     color: #fff;
 }
 
@@ -61,7 +59,7 @@ header .mobile-nav .hamburger {
     color: #fff;
 }
 
-/* Main Content */
+
 main {
     padding: 20px;
 }
@@ -85,11 +83,11 @@ section {
     border-radius: 8px;
 }
 
-/* Footer */
+
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #333;
+    background-color: rgb(128, 123, 123);
     color: #fff;
 }
 
@@ -98,7 +96,7 @@ footer a {
     text-decoration: none;
 }
 
-/* Formularios */
+
 form {
     display: flex;
     flex-direction: column;
@@ -113,6 +111,54 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+.carousel-item{
+    height: 50;
+
+  }
+
+  carrusel-galeria{
+    max-width: 70px;
+    margin: auto;
+    padding: 1em;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgb(10, 10, 10);
+    
+    
+    }
+    .carrusel-galeria img{
+    border-radius: 10px;
+    object-fit: cover;
+    text-align: center;
+    
+    
+    }
+    .carousel-item{
+      height: 1000px;
+      object-fit:contain;
+      max-height: 1000px;
+      text-align: center;
+      margin: auto;
+      
+    }
+    .carousel-control-prev,
+    .carousel-control-next {
+      width: 8%;
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      background-size: 100%; 
+      background-color:  black;
+      padding: 1.2em;
+
+    }
+    
+    
+    
+
+    
+    
+    
 
 /* Responsive Design */
 @media (max-width: 768px) {
@@ -130,6 +176,7 @@ textarea {
     .gallery img {
         width: 45%;
     }
+    
 }
 
 @media (max-width: 480px) {

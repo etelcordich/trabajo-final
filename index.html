@@ -6,151 +6,176 @@
     <title>Ejemplo Página Web</title>
     <link rel="stylesheet" href="css/estilo.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
 </head>
 <body>
    
-    <header class="bg-dark text-white p-4"></headerclass> >
+    <header class="bg-dark text-white p-4"></headerclass> 
         
-            <div class="container d-flex justify-content-between align-items-center">
-                <!-- Logo -->
-                <div class="logo">
-                    <img src="Imagenes/logo.png" alt="Logo" width="100">
+        <div class="container d-flex justify-content-between align-items-center">
+              
+            <div class="logo">
+            <img src="Imagenes/logo.png" alt="Logo" width="100">
         </div>
-        <nav class="main-nav">
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
+        
        
-        <nav  class="d-none d-md-block">
+        <nav  class="">
            
                 <ul class="nav">
-                    <li class="nav-item"><a class="nav-link text-white" href="#inicio">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#servicios">Servicios</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#contacto">Contacto</a></li>
-            <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            <ul id="hamburger-menu" class="hidden">
-               
-            </ul>
-            <div class="collapse navbar-collapse d-md-none" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
-                </ul>
-            </div>
-        </div>
+                    <li class="nav-item"><a class="nav-link text-white" href="Buscar">Buscar <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                      </svg> </a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#Contacto">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link text-white"href="Registrate"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill-check" viewBox="0 0 16 16">
+                        <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.708l.547.548 1.17-1.951a.5.5 0 1 1 .858.514M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                        <path d="M2 13c0 1 1 1 1 1h5.256A4.5 4.5 0 0 1 8 12.5a4.5 4.5 0 0 1 1.544-3.393Q8.844 9.002 8 9c-5 0-6 3-6 4"/>
+                      </svg></a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#carrito"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                        <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+                      </svg>
+                        </a></li>
+                    
+                    
+            
     </header>
 
-    <
+    
     <main>
        
         <section id="bienvenida" class="py-5 text-center bg-light">
             <div class="container">
-                <h1>Nova bas</h1>
-                <p>Carteras y accesorios hechos con pasion</p>
-            </div>
+            <h1>Nova bags</h1>
+            <p>Carteras y accesorios hechos con pasion</p>
+         </div>
         </section>
 
         
         <section id="Productos" class="py-5">
             <div class="container">
                 <h2 class="text-center mb-4">Productos</h2>
-                <div class="row">
-                    <div class="col-md-6 col-lg-4 mb-4">
-                        <div class="card">
-                            <img src="Prducto1.jpg" class="card-img-top" alt="Producto 1">
-                            <div class="card-body">
-                                <h5 class="card-title">Producto 1</h5>
-                                <p class="card-text">Descripción del producto 1.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mb-4">
-                        <div class="card">
-                            <img src="Producto2.jpg" class="card-img-top" alt="Producto 2">
-                            <div class="card-body">
-                                <h5 class="card-title">producto 2</h5>
-                                <p class="card-text">Descripción del producto 2.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mb-4">
-                        <div class="card">
-                            <img src="Producto3.jpg" class="card-img-top" alt="Producto 3">
-                            <div class="card-body">
-                                <h5 class="card-title">producto 3</h5>
-                                <p class="card-text">Descripción producto 3.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-2 mb-5">
+            <div class="card">
+            <img src="Imagenes/cartera-gris.jpg" alt="Carteras">
+            <div class="card-body">
+             <h5 class="text-center">Carteras</h5>
+         <p class="card-text"></p>
+         </div>
+        </div>
+        </div> 
+        <div class="col-md-6 col-lg-2 mb-5">
+        <div class="card">
+    <img src="Imagenes/mochila-blanca2.jpg" class="" alt="Mochilas">
+    <div class="card-body">
+    <h5 class="text-center">Mochilas</h5>
+    <p class="card-text"></p>
+     </div>
+    </div>
+ </div>
+ 
+ 
+ <div class="col-md-6 col-lg-2 mb-5">
+    <div class="card">
+    <img src="Imagenes/billeteras.jpeg" class="card-img-top" alt="Billeteras">
+    <div class="card-body">
+   <h5 class="text-center">Billeteras</h5>
+    <p class="card-text"></p>
+    </div>
+    </div>
+    </div> 
+
+    
+    <div class="col-md-6 col-lg-2 mb-5">
+        <div class="card">
+        <img src="Imagenes/portacelular-gris.jpg" class="card-img-top" alt="Portacelular">
+        <div class="card-body">
+       <h5 class="text-center">Portacelular</h5>
+        <p class="card-text"></p>
+        </div>
+        </div>
+        </div> 
+        <div class="col-md-6 col-lg-2 mb-5">
+            <div class="card">
+            <img src="Imagenes/bandolera-suela.jpg" class="card-img-top" alt="Bandoleras">
+            <div class="card-body">
+           <h5 class="text-center">Bandoleras</h5>
+            <p class="card-text"></p>
             </div>
-        </section>
+            </div>
+            </div> 
+    
+    <div class="col-md-6 col-lg-2 mb-5">
+        <div class="card">
+        <img src="Imagenes/cinturon-calado.jpeg" class="card-img-top" alt="Cinturones">
+        <div class="card-body">
+       <h5 class="text-center">Cinturones</h5>
+        <p class="card-text"></p>
+        </div>
+        </div>
+        
+    </div>
+    </div>
+    </section>
 
         
-        <section id="galeria" class="py-5 bg-light">
-            <div class="container">
-                <h2 class="text-center mb-4">Galería de Productos</h2>
-                <div class="row">
-                    <div class="col-md-4 mb-4">
-                        <img src="producto1.jpg" alt="Producto 1" class="img-fluid rounded">
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <img src="producto2.jpg" alt="Producto 2" class="img-fluid rounded">
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <img src="producto3.jpg" alt="Producto 3" class="img-fluid rounded">
-                    </div>
-                </div>
+    <aside class="carousel-example">
+        <div id="carouselExampleFade" class="carousel slide ">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="Imagenes/bandolera-suela.jpg" class="d-block w-100" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="Imagenes/cartera-gris.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Imagenes/mochila.jpg" class="d-block w-100" alt="...">
+              </div>
             </div>
-        </section>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    
+          </aside>
+        
+        
 
-       
-        <section id="Comentarios" class="py-5">
-            <div class="container text-center">
-                <h2 class="mb-4">Testimonios</h2>
-                <div class="testimonial">
-                    <blockquote class="blockquote">
-                        <p>"Excelente calidad y hermosos modelos"</p>
-                        <footer class="blockquote-footer">Juan Pérez</footer>
-                    </blockquote>
-                </div>
+    <section id="contacto" class="py-5 bg-light">
+         <div class="container">
+    <h2 class="text-center mb-4">Contacto</h2>
+        <form action="/submit" method="POST">
+            <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" class="form-control" required>
+        </div>
+            <div class="mb-3">
+            <label for="email" class="form-label">Email:</label>
+             <input type="email" id="email" name="email" class="form-control" required>
             </div>
-        </section>
-
-        <section id="contacto" class="py-5 bg-light">
-            <div class="container">
-                <h2 class="text-center mb-4">Contacto</h2>
-                <form action="/submit" method="POST">
-                    <div class="mb-3">
-                        <label for="nombre" class="form-label">Nombre:</label>
-                        <input type="text" id="nombre" name="nombre" class="form-control" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="email" class="form-label">Email:</label>
-                        <input type="email" id="email" name="email" class="form-control" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="mensaje" class="form-label">Mensaje:</label>
-                        <textarea id="mensaje" name="mensaje" class="form-control" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Enviar</button>
-                </form>
+            <div class="mb-3">
+            <label for="mensaje" class="form-label">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" class="form-control" required></textarea>
             </div>
-        </section>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
     </main>
+    
+      
 
    
     <footer class="bg-dark text-white text-center py-4">
-        <p>&copy; 2025 Mi Empresa. Todos los derechos reservados.</p>
+        <p>&copy; 2025 Nova Bags. Todos los derechos reservados.</p>
         <p>
-            <a href="#" class="text-white">Facebook</a> |
-            <a href="#" class="text-white">Twitter</a> |
-            <a href="#" class="text-white">Instagram</a>
+            <a href="#" class="text-white">Facebook: Nova Bags</a> |
+            <a href="#" class="text-white">Web site: www.novabags.com.ar</a> |
+            <a href="#" class="text-white">Instagram: @nova.bags</a>
         </p>
         <p><a href="#" class="text-white">Política de Privacidad</a></p>
     </footer>
